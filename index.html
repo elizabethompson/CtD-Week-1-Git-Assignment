@@ -1,26 +1,58 @@
+<!-- <!DOCTYPE> specifies the type of document (required) -->
 <!DOCTYPE html>
+
+<!-- <html> represents the root of an HTML document -->
 <html>
+  <!-- <head> contains document metadata (mostly hidden in the browser) -->
   <head>
+    <!-- `charset` specifies the character encoding for the document
+      example: "UTF-8" is a common encoding supported by most browsers
+    -->
     <meta charset="UTF-8" />
+
+    <!-- `viewport` specifies the user's visible area of a web page (which varies by device)
+      example: "width=device-width" sets the width of the page to follow the screen-width of the device
+      example: "initial-scale=1" sets the initial zoom level when the page is first loaded by the browser
+    -->
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <!-- `author` specifies the person/entity who wrote the document -->
     <meta name="author" content="Elizabeth Thompson" />
+
+    <!-- `description` explains what the document is in more detail -->
     <meta
       name="description"
       content="The assignment for week 1 of Code the Dream's Web Basics course."
     />
+
+    <!-- `keywords` are used by search engines to match user queries with html pages -->
     <meta name="keywords" content="code the dream, ctd, web basics, week 1" />
 
+    <!-- <title> represents the page title and is commonly displayed in the browser tab -->
     <title>Web Basics: Week 1 | CTD</title>
+
+    <!-- <link> specifies relationship between document and external resource
+      read more: https://www.w3schools.com/tags/tag_link.asp
+    -->
     <link rel="stylesheet" href="styles.css" type="text/css" />
   </head>
+
+  <!-- <body> contains document contents (mostly visible in the browser) -->
   <body>
+    <!-- <div> describes a generic block or container -->
     <div class="content-container">
+      <!-- <h1> describes the primary heading -->
       <h1>👋 Hi, I'm Elizabeth</h1>
+      <!-- <p> describes a paragraph of text -->
       <p>
         As a new mentor with Code the Dream, I'm excited for the opportunity to
         teach what I know and learn what I don't!
       </p>
     </div>
+
+    <!-- <script> used for embedding or linking JavaScript
+      read more: https://www.w3schools.com/tags/tag_script.asp
+    -->
     <script src="index.js" type="text/javascript"></script>
   </body>
 </html>
